@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Timetrack | Keep track of time</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div id="clock-local">
+        <h1 class="clock-header">Current Time</h1>
+        <div id="localtime"></div>
+        <div id="localdate"></div>
+    </div>
+    <div id="clock-countdown">
+        <h1 class="clock-header">Countdown Timer</h1>
+        <input id="cd-input-minutes" type="text"><p>Minutes</p>
+        <input id="cd-input-seconds" type="text"><p>Seconds</p>
+        <div id="cd-display">00:00</div>
+        <button id="cd-start" class="clock-btn">Countdown</button>
+        <button id="cd-reset" class="clock-btn">Reset</button>
+    </div>
+    <div id="clock-stopwatch">
+        <h1 class="clock-header">Stopwatch</h1>
+        <div id="sw-display">00:00</div>
+        <button id="sw-start" class="clock-btn-mod">Start</button>
+        <button id="sw-stop" class="clock-btn-mod">Stop</button>
+        <button id="sw-reset" class="clock-btn-mod">Reset</button>
+        <button id="sw-lap" class="clock-btn-mod">Lap</button>
+        <div class="lap">
+            <h1 id="lap-header"></h1>
+            <ul id="lap-times"></ul>
+        </div>
+    </div>
+    <div id="reminder">
+        <h1>Reminder</h1>
+        <input id="remind-hour" type="text"><p>Hours</p>
+        <input id="remind-minute" type="text"><p>Minutes</p>
+        <input id="remind-second" type="text"><p>Seconds</p>
+        <div id="remind-display">Your reminder is at: </div>
+        <button id="remind-btn" class="clock-btn">Remind</button>
+    </div>
+</body>
+</html>

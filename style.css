@@ -1,0 +1,132 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    display: flex;
+    flex-flow: row wrap;
+    color: darkslategrey;
+}
+
+.clock-header{
+    font-size: 2em;
+    text-align: center;
+    margin: 10px 0px 10px 0px;
+}
+
+.clock-btn{
+    font-size: 1.5em;
+    background: none;
+    border: none;
+    border: 2px solid darkslategrey;
+    outline: none;
+    cursor: pointer;
+    margin: 0px 0px 10px 0px;
+    color: inherit;
+}
+
+.clock-btn-mod{
+    font-size: 1.5em;
+    background: none;
+    border: none;
+    border: 2px solid darkslategrey;
+    outline: none;
+    cursor: pointer;
+    margin: 10px 0px 10px 0px;
+    color: inherit;
+}
+
+input{
+    border: none;
+    border-bottom: 2px solid grey;
+    outline: none;
+    font-size: 1.4em;
+    margin: 5px 10px 5px 5px;
+    width: 50px;
+    text-align: center;
+    background: inherit;
+    color: inherit;
+}
+
+#clock-local{
+    order: 1;
+    flex: 0 1 100%;
+    background-color: bisque;
+    padding: 10px;
+}
+
+#localtime{
+    font-size: 4em;
+    text-align: center;
+}
+
+#localdate{
+    font-size: 2em;
+    text-align: center;
+}
+
+#clock-countdown{
+    order: 2;
+    flex: 0 1 100%;
+    text-align: center;
+    background-color: sandybrown;
+    padding: 10px;
+}
+
+#clock-countdown p{
+    display: inline-block;
+}
+
+#cd-display{
+    font-size: 3em;
+    border: 5px 10x 5px 5px;
+    margin: 5px 0px 10px 0px;
+}
+
+#clock-stopwatch{
+    order: 3;
+    flex: 1 1 600px;
+    background-color: burlywood;
+    text-align: center;
+    padding: 10px;
+}
+
+#sw-display{
+    font-size: 3em;
+    border: 5px 10x 5px 5px;
+    margin: 5px 0px 10px 0px;
+}
+
+.lap{
+    font-size: 1em;
+    margin-top: -7.7em;
+    float: right;
+    margin-right: 530px;
+}
+
+.lap > h1{
+    margin-left: 20px;
+    font-size: 1em;
+}
+
+#lap-times{
+    list-style-type: decimal;
+    font-size: 1em;
+    margin-top: -5px;
+}
+
+#reminder{
+    order: 4;
+    flex: 0 1 100%;
+    background-color: #cc8945;
+    text-align: center;
+    padding: 10px;
+}
+
+#reminder > p{
+    display: inline-block;
+}
+
+#remind-display{
+    font-size: 1.3em;
+    margin: 5px 0px 10px 0px;
+}
