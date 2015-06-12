@@ -4,8 +4,6 @@ A simple clock app to keep track of time
 ##TO-DO's:
 - Add time converter
 - Add sounds
-- Use jQueryUi to add dragability
-- Login (Email/Facebook/Twiiter/Google+)
 - Settings (color, 12-24h format, etc.)
 - Browser Notifications?
 
