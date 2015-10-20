@@ -2,6 +2,7 @@
 A simple clock app to keep track of time
 
 ##TO-DO's:
+- Rewrite JS file in jQuery
 - Add time converter
 - Add sounds
 - Settings (color, 12-24h format, etc.)
